@@ -34,14 +34,13 @@ def query(request, input_query: Optional[str] = None):
     # Fetch known redirects from DB
     try:
         known_redirects: List[BunnyRedirect] = BunnyRedirect.objects.all()
+        for bunny_redirect in known_redirects:
+            if key == bunny_redirect.key:
+                if arg is not None:
+                    return redirect(bunny_redirect.arg_return % arg)
+
+                return redirect(bunny_redirect.no_arg_return)
     except Exception:
-        return redirect(DEFAULT_URL % "")
-
-    for bunny_redirect in known_redirects:
-        if key == bunny_redirect.key:
-            if arg is not None:
-                return redirect(bunny_redirect.arg_return % arg)
-
-            return redirect(bunny_redirect.no_arg_return)
+        pass
 
     return redirect(DEFAULT_URL % input_query)
