@@ -35,7 +35,7 @@ def query(request, input_query: Optional[str] = None):
     # Fetch known redirects from DB
     try:
         known_redirects: List[BunnyRedirect] = BunnyRedirect.objects.all()
-    except sqlite3.OperationalError:
+    except Exception:
         return redirect(DEFAULT_URL % "")
 
     for bunny_redirect in known_redirects:
