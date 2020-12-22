@@ -1,4 +1,5 @@
 """Views page - configures redirects"""
+import sqlite3
 from typing import List, Optional
 
 from django.shortcuts import HttpResponse, redirect
@@ -32,7 +33,11 @@ def query(request, input_query: Optional[str] = None):
         arg = input_query_array[1]
 
     # Fetch known redirects from DB
-    known_redirects: List[BunnyRedirect] = BunnyRedirect.objects.all()
+    try:
+        known_redirects: List[BunnyRedirect] = BunnyRedirect.objects.all()
+    except sqlite3.OperationalError:
+        return redirect(DEFAULT_URL % "")
+
     for bunny_redirect in known_redirects:
         if key == bunny_redirect.key:
             if arg is not None:
@@ -40,4 +45,4 @@ def query(request, input_query: Optional[str] = None):
 
             return redirect(bunny_redirect.no_arg_return)
 
-    return redirect("http://www.google.com/search?q=%s" % input_query)
+    return redirect(DEFAULT_URL % input_query)
