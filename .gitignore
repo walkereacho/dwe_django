@@ -1,2 +1,3 @@
 env/
 *__pycache__/
+dwe_django/settings.py
