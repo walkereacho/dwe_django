@@ -1,5 +1,4 @@
 """Views page - configures redirects"""
-import sqlite3
 from typing import List, Optional
 
 from django.shortcuts import HttpResponse, redirect
