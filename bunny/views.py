@@ -8,12 +8,11 @@ from bunny.models import BunnyRedirect
 DEFAULT_URL = "http://www.google.com/search?q=%s"
 
 
-def index(request):
+def help(request):
     """
-    Index page - the most basic of readmes
+    Help page - shows available commands... WIP
     """
-    return HttpResponse("Try .*/bunny/?=")
-
+    return HttpResponse("Try .*/bunny/{command}")
 
 def query(request, input_query: Optional[str] = None):
     """
