@@ -1,0 +1,2059 @@
+{
+  "filters": [
+    {
+      "displayName": "Season",
+      "name": "season",
+      "value": "2022",
+      "options": [
+        {
+          "value": "2022",
+          "displayValue": "2022"
+        },
+        {
+          "value": "2021",
+          "displayValue": "2021"
+        },
+        {
+          "value": "2020",
+          "displayValue": "2020"
+        },
+        {
+          "value": "2019",
+          "displayValue": "2019"
+        },
+        {
+          "value": "2018",
+          "displayValue": "2018"
+        },
+        {
+          "value": "2017",
+          "displayValue": "2017"
+        },
+        {
+          "value": "2016",
+          "displayValue": "2016"
+        },
+        {
+          "value": "2015",
+          "displayValue": "2015"
+        },
+        {
+          "value": "2014",
+          "displayValue": "2014"
+        },
+        {
+          "value": "2013",
+          "displayValue": "2013"
+        },
+        {
+          "value": "2012",
+          "displayValue": "2012"
+        },
+        {
+          "value": "2011",
+          "displayValue": "2011"
+        }
+      ]
+    },
+    {
+      "displayName": "Category",
+      "name": "category",
+      "value": "pitching",
+      "options": [
+        {
+          "value": "batting",
+          "displayValue": "Batting",
+          "shortDisplayName": "batting"
+        },
+        {
+          "value": "pitching",
+          "displayValue": "Pitching",
+          "shortDisplayName": "pitching"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    "IP",
+    "H",
+    "R",
+    "ER",
+    "HR",
+    "BB",
+    "K",
+    "GB",
+    "FB",
+    "P",
+    "TBF",
+    "GSC",
+    "Dec",
+    "Rel",
+    "ERA"
+  ],
+  "names": [
+    "innings",
+    "hits",
+    "runs",
+    "earnedRuns",
+    "homeRuns",
+    "walks",
+    "strikeouts",
+    "groundBalls",
+    "flyBalls",
+    "pitches",
+    "battersFaced",
+    "avgGameScore",
+    "wins-losses",
+    "saves-blownSaves-holds",
+    "ERA"
+  ],
+  "displayNames": [
+    "Innings pitched",
+    "Hits",
+    "Runs",
+    "Earned runs",
+    "Home Runs",
+    "Walks",
+    "Strikeouts",
+    "Ground Balls",
+    "Fly Balls",
+    "Pitches",
+    "Batters Faced",
+    "Game Score",
+    "Decision",
+    "Saves-Blown Saves-Holds",
+    "Earned Run Average"
+  ],
+  "events": {
+    "401354844": {
+      "id": "401354844",
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game/_/gameId/401354844",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354844",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/game/_/gameId/401354844",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "teamstats",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/matchup?gameId=401354844",
+          "text": "Team Stats",
+          "shortText": "Team Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/boxscore/_/gameId/401354844",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354844",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game?gameId=401354844",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "mobile",
+            "event"
+          ],
+          "href": "http://m.espn.com/mlb/gamecast?gameId=401354844&action=summary",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354844",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/recap?gameId=401354844",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/playbyplay/_/gameId/401354844",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/video?gameId=401354844",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "week": 21,
+      "atVs": "vs",
+      "gameDate": "2022-05-22T18:20:00.000+0000",
+      "score": "5-4",
+      "homeTeamId": "16",
+      "awayTeamId": "29",
+      "homeTeamScore": "5",
+      "awayTeamScore": "4",
+      "gameResult": "W",
+      "opponent": {
+        "id": "29",
+        "uid": "s:1~l:10~t:29",
+        "displayName": "Arizona Diamondbacks",
+        "abbreviation": "ARI",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/ari/arizona-diamondbacks",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/ari/arizona-diamondbacks",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/ari/arizona-diamondbacks",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/ari",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/ari",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:29&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/ari",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/ari",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/ari",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/ari.png"
+      },
+      "leagueName": "Major League Baseball",
+      "leagueAbbreviation": "MLB",
+      "leagueShortName": "MLB",
+      "team": {
+        "id": "16",
+        "uid": "s:1~l:10~t:16",
+        "abbreviation": "CHC",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/chc/chicago-cubs",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/chc/chicago-cubs",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/chc/chicago-cubs",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/chc",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/chc",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:16&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/chc",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/chc",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/chc",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
+        "isAllStar": false
+      }
+    },
+    "401355102": {
+      "id": "401355102",
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game/_/gameId/401355102",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401355102",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/game/_/gameId/401355102",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "teamstats",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/matchup?gameId=401355102",
+          "text": "Team Stats",
+          "shortText": "Team Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/boxscore/_/gameId/401355102",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401355102",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game?gameId=401355102",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "mobile",
+            "event"
+          ],
+          "href": "http://m.espn.com/mlb/gamecast?gameId=401355102&action=summary",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401355102",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/playbyplay/_/gameId/401355102",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/video?gameId=401355102",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "week": 23,
+      "atVs": "@",
+      "gameDate": "2022-06-10T23:05:00.000+0000",
+      "score": "2-1 F/13",
+      "homeTeamId": "10",
+      "awayTeamId": "16",
+      "homeTeamScore": "2",
+      "awayTeamScore": "1",
+      "gameResult": "L",
+      "opponent": {
+        "id": "10",
+        "uid": "s:1~l:10~t:10",
+        "displayName": "New York Yankees",
+        "abbreviation": "NYY",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/nyy/new-york-yankees",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/nyy/new-york-yankees",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/nyy/new-york-yankees",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/nyy",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/nyy",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:10&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/nyy",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/nyy",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/nyy",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png"
+      },
+      "leagueName": "Major League Baseball",
+      "leagueAbbreviation": "MLB",
+      "leagueShortName": "MLB",
+      "team": {
+        "id": "16",
+        "uid": "s:1~l:10~t:16",
+        "abbreviation": "CHC",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/chc/chicago-cubs",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/chc/chicago-cubs",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/chc/chicago-cubs",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/chc",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/chc",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:16&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/chc",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/chc",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/chc",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
+        "isAllStar": false
+      }
+    },
+    "401354683": {
+      "id": "401354683",
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game/_/gameId/401354683",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354683",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/game/_/gameId/401354683",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "teamstats",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/matchup?gameId=401354683",
+          "text": "Team Stats",
+          "shortText": "Team Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/boxscore/_/gameId/401354683",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354683",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game?gameId=401354683",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "mobile",
+            "event"
+          ],
+          "href": "http://m.espn.com/mlb/gamecast?gameId=401354683&action=summary",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354683",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/recap?gameId=401354683",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/playbyplay/_/gameId/401354683",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/video?gameId=401354683",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "week": 19,
+      "atVs": "@",
+      "gameDate": "2022-05-11T01:40:00.000+0000",
+      "score": "5-4",
+      "homeTeamId": "25",
+      "awayTeamId": "16",
+      "homeTeamScore": "5",
+      "awayTeamScore": "4",
+      "gameResult": "L",
+      "opponent": {
+        "id": "25",
+        "uid": "s:1~l:10~t:25",
+        "displayName": "San Diego Padres",
+        "abbreviation": "SD",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/sd/san-diego-padres",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/sd/san-diego-padres",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/sd/san-diego-padres",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/sd",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/sd",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:25&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/sd",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/sd",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/sd",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/sd.png"
+      },
+      "leagueName": "Major League Baseball",
+      "leagueAbbreviation": "MLB",
+      "leagueShortName": "MLB",
+      "team": {
+        "id": "16",
+        "uid": "s:1~l:10~t:16",
+        "abbreviation": "CHC",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/chc/chicago-cubs",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/chc/chicago-cubs",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/chc/chicago-cubs",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/chc",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/chc",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:16&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/chc",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/chc",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/chc",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
+        "isAllStar": false
+      }
+    },
+    "401354772": {
+      "id": "401354772",
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game/_/gameId/401354772",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "summary",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354772",
+          "text": "Gamecast",
+          "shortText": "Summary",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "now",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/game/_/gameId/401354772",
+          "text": "Now",
+          "shortText": "Now",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "teamstats",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/matchup?gameId=401354772",
+          "text": "Team Stats",
+          "shortText": "Team Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/boxscore/_/gameId/401354772",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "boxscore",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354772",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/game?gameId=401354772",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "mobile",
+            "event"
+          ],
+          "href": "http://m.espn.com/mlb/gamecast?gameId=401354772&action=summary",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "gamecast",
+            "sportscenter",
+            "app",
+            "event"
+          ],
+          "href": "sportscenter://x-callback-url/showGame?sportName=baseball&leagueAbbrev=mlb&gameId=401354772",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "recap",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/recap?gameId=401354772",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "http://www.espn.com/mlb/playbyplay/_/gameId/401354772",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "videos",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/mlb/video?gameId=401354772",
+          "text": "Videos",
+          "shortText": "Videos",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "week": 20,
+      "atVs": "vs",
+      "gameDate": "2022-05-16T23:40:00.000+0000",
+      "score": "9-0",
+      "homeTeamId": "16",
+      "awayTeamId": "23",
+      "homeTeamScore": "9",
+      "awayTeamScore": "0",
+      "gameResult": "W",
+      "opponent": {
+        "id": "23",
+        "uid": "s:1~l:10~t:23",
+        "displayName": "Pittsburgh Pirates",
+        "abbreviation": "PIT",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/pit/pittsburgh-pirates",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/pit/pittsburgh-pirates",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/pit/pittsburgh-pirates",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/pit",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/pit",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:23&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/pit",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/pit",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/pit",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/pit.png"
+      },
+      "leagueName": "Major League Baseball",
+      "leagueAbbreviation": "MLB",
+      "leagueShortName": "MLB",
+      "team": {
+        "id": "16",
+        "uid": "s:1~l:10~t:16",
+        "abbreviation": "CHC",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "clubhouse",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/_/name/chc/chicago-cubs",
+            "text": "Clubhouse",
+            "shortText": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "roster",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/roster/_/name/chc/chicago-cubs",
+            "text": "Roster",
+            "shortText": "Roster",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "team"
+            ],
+            "href": "http://www.espn.com/mlb/team/stats/_/name/chc/chicago-cubs",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "schedule",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/schedule/_/name/chc",
+            "text": "Schedule",
+            "shortText": "Schedule",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "photos",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/photos/_/name/chc",
+            "text": "photos",
+            "shortText": "photos",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "scores",
+              "sportscenter",
+              "app",
+              "team"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:1~l:10~t:16&section=scores",
+            "text": "Scores",
+            "shortText": "Scores",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transactions",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/transactions/_/name/chc",
+            "text": "Transactions",
+            "shortText": "Transactions",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "injuries",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/injuries/_/name/chc",
+            "text": "Injuries",
+            "shortText": "Injuries",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "depthchart",
+              "desktop",
+              "team"
+            ],
+            "href": "https://www.espn.com/mlb/team/depth/_/name/chc",
+            "text": "Depth Chart",
+            "shortText": "Depth Chart",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/chc.png",
+        "isAllStar": false
+      }
+    }
+  },
+  "seasonTypes": [
+    {
+      "displayName": "2022 Regular Season",
+      "categories": [
+        {
+          "displayName": "june",
+          "type": "event",
+          "splitType": "june",
+          "events": [
+            {
+              "eventId": "401355102",
+              "stats": [
+                "3.0",
+                "3",
+                "0",
+                "0",
+                "0",
+                "1",
+                "2",
+                "3",
+                "7",
+                "42",
+                "14",
+                "54.0",
+                "-",
+                "-",
+                "2.84"
+              ]
+            }
+          ],
+          "totals": [
+            "3.0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "1",
+            "2",
+            "3",
+            "7",
+            "42",
+            "14",
+            "54.0",
+            "0-0",
+            "0",
+            "0.00"
+          ]
+        },
+        {
+          "displayName": "may",
+          "type": "event",
+          "splitType": "may",
+          "events": [
+            {
+              "eventId": "401354844",
+              "stats": [
+                "6.0",
+                "6",
+                "3",
+                "3",
+                "0",
+                "2",
+                "3",
+                "10",
+                "10",
+                "82",
+                "25",
+                "49.0",
+                "-",
+                "-",
+                "3.38"
+              ]
+            },
+            {
+              "eventId": "401354772",
+              "stats": [
+                "7.0",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "6",
+                "8",
+                "8",
+                "83",
+                "22",
+                "81.0",
+                "W(1-0)",
+                "-",
+                "2.70"
+              ]
+            },
+            {
+              "eventId": "401354683",
+              "stats": [
+                "3.0",
+                "5",
+                "3",
+                "3",
+                "0",
+                "5",
+                "1",
+                "10",
+                "2",
+                "64",
+                "18",
+                "33.0",
+                "-",
+                "-",
+                "9.00"
+              ]
+            }
+          ],
+          "totals": [
+            "16.0",
+            "12",
+            "6",
+            "6",
+            "0",
+            "7",
+            "10",
+            "28",
+            "20",
+            "229",
+            "65",
+            "54.3",
+            "1-0",
+            "0",
+            "3.38"
+          ]
+        }
+      ],
+      "summary": {
+        "displayName": "Regular Season Stats",
+        "stats": [
+          {
+            "displayName": "Totals",
+            "stats": [
+              "19.0",
+              "15",
+              "6",
+              "6",
+              "0",
+              "8",
+              "12",
+              "31",
+              "27",
+              "271",
+              "79",
+              "54.3",
+              "1-0",
+              "0",
+              "2.84"
+            ],
+            "type": "total"
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "abbreviation": "BB",
+      "displayName": "Walks"
+    },
+    {
+      "abbreviation": "Dec",
+      "displayName": "Decision"
+    },
+    {
+      "abbreviation": "ER",
+      "displayName": "Earned runs"
+    },
+    {
+      "abbreviation": "ERA",
+      "displayName": "Earned Run Average"
+    },
+    {
+      "abbreviation": "FB",
+      "displayName": "Fly Balls"
+    },
+    {
+      "abbreviation": "GB",
+      "displayName": "Ground Balls"
+    },
+    {
+      "abbreviation": "GSC",
+      "displayName": "Game Score"
+    },
+    {
+      "abbreviation": "H",
+      "displayName": "Hits"
+    },
+    {
+      "abbreviation": "HR",
+      "displayName": "Home Runs"
+    },
+    {
+      "abbreviation": "IP",
+      "displayName": "Innings pitched"
+    },
+    {
+      "abbreviation": "K",
+      "displayName": "Strikeouts"
+    },
+    {
+      "abbreviation": "P",
+      "displayName": "Pitches"
+    },
+    {
+      "abbreviation": "R",
+      "displayName": "Runs"
+    },
+    {
+      "abbreviation": "Rel",
+      "displayName": "Saves-Blown Saves-Holds"
+    },
+    {
+      "abbreviation": "TBF",
+      "displayName": "Batters Faced"
+    }
+  ]
+}
